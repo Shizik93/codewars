@@ -1,28 +1,31 @@
 function isValidWalk(walk) {
-    let counter = 0
+    let counterX = 0
+    let counterY = 0
     if (walk.length !== 10) {
         return false
     } else {
         walk.forEach(el => {
+
             switch (el) {
+
                 case 'n': {
-                    return counter--
+                    counterY--;break
                 }
                 case 'w': {
-                    return counter--
+                    counterX--;break
                 }
                 case 's': {
-                    return counter++
+                    counterY++;break
                 }
                 case 'e': {
-                    return counter++
+                    counterX++;break
                 }
             }
 
         })
     }
 
-    return counter === 0;
+    return counterX ===0 && counterY === 0
 
 }
 
