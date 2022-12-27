@@ -114,18 +114,44 @@ console.dir(obj)
 console.log(newObj)
 console.dir(JSON.parse(newObj))*/
 
+/*function toCamelCase(str) {
+    if(!str){
+        return ""
+    }
+    const array = str.split('')
+    const foo = (array) => {
+        return array.map((el, index) => {
+            if (index === 0) {
+                return el
+            }
+            return el.charAt(0).toUpperCase() + el.slice(1)
+        }).join('')
+
+
+    }
+    let cameCaseString
+    if (array.find((el) => el === '_')) {
+        cameCaseString = foo(str.split('_'))
+    } else {
+        cameCaseString = foo(str.split('-'))
+    }
+   return cameCaseString
+
+
+}*/
 
 
 
+/*const foo = (array) => {
+    return array.map((el, index) => {
+        if (index === 0) {
+            return el
+        }
+        return el[0].toUpperCase() + el.slice(1)
+    }).join('')
 
 
-
-
-
-
-
-
-
+}*/
 
 
 
