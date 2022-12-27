@@ -141,7 +141,6 @@ console.dir(JSON.parse(newObj))*/
 }*/
 
 
-
 /*const foo = (array) => {
     return array.map((el, index) => {
         if (index === 0) {
@@ -152,7 +151,6 @@ console.dir(JSON.parse(newObj))*/
 
 
 }*/
-
 
 
 
