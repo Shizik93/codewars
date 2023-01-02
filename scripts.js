@@ -153,4 +153,59 @@ console.dir(JSON.parse(newObj))*/
 }*/
 
 
+/*function queueTime(customers, n) {
+const arr = new Array(n).fill(0);
+    console.log(arr)
+    if (n === 1) {
+        console.log(customers.reduce((acc, el) => acc + el))
+    }
+    else if(n>=customers.length){
+        console.log(Math.max(...customers))
+
+    }
+
+}
+queueTime([1, 2, 3, 4], 5)*/
+
+/*const foo=(customers,tillCount)=>{
+
+    let tills = Array(tillCount <= 0 ? 1 : tillCount).fill(0);
+    console.log(tills)
+    customers.forEach(customer => {
+        const fastest = tills.indexOf(Math.min(...tills));
+        console.log(fastest,'fastest')
+        console.log( tills[fastest] += customer ,'tills[fastest] += customer');
+    });
+    return Math.max(...tills);
+}
+
+
+console.log( foo([2, 3, 10, 2,2,3,5,6,7,10], 2))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
