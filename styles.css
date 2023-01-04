@@ -1,0 +1,27 @@
+p {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+.paragraph {
+    color: red;
+}
+
+.paragraph.color-primary {
+    color: blue;
+}
+
+.border {
+border: 1px solid blue;
+}
+
+#no-border {
+    border:none;
+}

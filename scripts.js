@@ -186,9 +186,32 @@ console.log( foo([2, 3, 10, 2,2,3,5,6,7,10], 2))*/
 // complete the function
 
 
+/*
+const user={
+    group:'Samurai',
+    students:['Hanna','Alex'],
+    showGroup(){
+        this.students.forEach(function (student){
+            console.log(this.group+' '+student)
+        }.bind(user))
 
+    }
+}*/
+/*const freezeUser=Object.freeze(user)
+const descriptorUser=Object.getOwnPropertyDescriptor(user,'group')
+const descriptorFreezeUser=Object.getOwnPropertyDescriptor(freezeUser,'group')
 
+const json=JSON.stringify(user)
 
+console.log(JSON.parse(json))
+
+console.log(descriptorUser,' User')
+console.log(descriptorFreezeUser,' Freeze User')*/
+
+/*console.log(Object.keys(user))
+for(let key in user){
+    console.log(key)
+}*/
 
 
 

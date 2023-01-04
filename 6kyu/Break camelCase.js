@@ -23,5 +23,17 @@ function solution(string) {
     }
 }
 
+const solution2=(string)=>{
+    return string.split('').map(el=>{
+        if(el===el.toUpperCase()){
+            return ' '+el
+        }
+        return el
+    }).join('')
+}
+
 console.log(solution("camelCasing"))
 console.log(solution('camelCasingTest'))
+
+console.log(solution2("camelCasing"))
+console.log(solution2('camelCasingTest'))
